@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    
+    <title>SpringfieldPD</title>
+</head>
+<header><h1>Springfield Police Department</h1></header>
+<body>
+    <button id="inicioBtn">Iniciar</button>
+    <audio id="audioInicio" src="audios/inicio.mp3"></audio>
+    <section class="Programa" id="programa" style="display: none;">
+        <div class="img">
+            <img src="img/jefe.png" alt="JefeGorgory">
+        </div>
+        <form class="botones">
+            <input type="radio" name="opcion" id="no">
+            <label for="no"  class="no">NO</label>
+            <input type="radio" name="opcion" id="si" class="si"> 
+            <label for="si" >SI</label>
+        </form>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>

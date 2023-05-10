@@ -1,0 +1,44 @@
+body {
+    background-color: #9190ba;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "sigmar";
+    color: #161e4c;
+}
+#inicioBtn{
+    border-radius: 20px;
+    color: white;
+    background-color: #161e4c;
+    position: absolute;
+    top: 50%; 
+    left: 45%;
+    width: 200px; 
+    height: 60px; 
+    font-size: 24px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.si {
+    margin-left: 20px;
+}
+
+.no {
+    margin-right: 30px;
+}
