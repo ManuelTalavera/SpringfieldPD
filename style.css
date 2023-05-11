@@ -27,18 +27,27 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 40%; 
+    left: 45%;
+    width: 200px; 
+    height: 60px; 
+    transform: scale(1.5);
 }
 
 .botones {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 55%; 
+    left: 45%;
+    width: 200px; 
+    height: 60px; 
+    font-size: 24px;
 }
 
-.si {
-    margin-left: 20px;
-}
 
 .no {
-    margin-right: 30px;
+    margin-right: 100px;
 }

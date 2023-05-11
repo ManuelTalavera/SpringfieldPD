@@ -19,12 +19,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var radioNo = document.getElementById("no");
     var radioSi = document.getElementById("si");
+    var rno = document.getElementById("l1")
+    var rsi = document.getElementById("l2")
     
     radioNo.addEventListener("change", function() {
         if (radioNo.checked && !isAudioPlaying) {
             no.play();
             radioNo.style.display = "none";
             radioSi.style.display = "none";
+            rno.style.display = "none";
+            rsi.style.display = "none";
         }
     });
 
@@ -33,6 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
             si.play();
             radioNo.style.display = "none";
             radioSi.style.display = "none";
+            rno.style.display = "none";
+            rsi.style.display = "none";
         }
     });
 
