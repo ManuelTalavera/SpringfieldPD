@@ -10,12 +10,32 @@ document.addEventListener("DOMContentLoaded", function() {
     audioInicio.addEventListener("play", function() {
         isAudioPlaying = true; 
     });
+    function disableRadios() {
+        radioNo.disabled = true;
+        radioSi.disabled = true;
+    }
+
+    function enableRadios() {
+        radioNo.disabled = false;
+        radioSi.disabled = false;
+    }
 
     inicioBtn.addEventListener("click", function() {
         inicioBtn.style.display = "none";
         programa.style.display = "block";
         audioInicio.play();
     });
+    audioInicio.addEventListener("play", function() {
+        isAudioPlaying = true;
+        disableRadios();
+    });
+
+
+    audioInicio.addEventListener("ended", function() {
+        isAudioPlaying = false;
+        enableRadios();
+    });
+
 
     var radioNo = document.getElementById("no");
     var radioSi = document.getElementById("si");
