@@ -51,3 +51,19 @@ h1 {
 .no {
     margin-right: 100px;
 }
+@media screen and (max-width: 768px ){
+    h1 {
+        font-family: "sigmar";
+        color: #161e4c;
+        font-size: large;
+ }
+ #inicioBtn{
+    left: 25%;
+ }
+ .img{
+    left: 26%;
+ }
+ .botones{
+    left: 26%;
+ }
+}
